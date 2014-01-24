@@ -1,8 +1,8 @@
 #Sociopatterns-neo4j
 
-#contactadder-neo4j.py
+##contactadder-neo4j.py
 
-##class Neo4jContactAdder - Description
+###class Neo4jContactAdder - Description
 
 __Neo4jContactAdder__ adds contacts (defined in sociopatterns.loader) in a neo4j graph database modeled like specified in [neo4j-dynagraph]( https://github.com/ccattuto/neo4j-dynagraph/wiki/Representing-time-dependent-graphs-in-Neo4j) extended with labels on frames (first_frame, last_frame, year, month, day, hour) and index on actors' name. It uses db drivers from [py2neo 1.6.1]( http://book.py2neo.org/en/latest/ ), and the version of [neo4j and cypher is 2.0.0]( http://docs.neo4j.org/chunked/milestone/ ). <br />  
 
